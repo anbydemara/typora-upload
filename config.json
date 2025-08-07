@@ -1,9 +1,9 @@
 {
-  "access_key": "JWM8zCvkXzMc7Oug3jC8nfoerq6AD3bhyoln-TWT",
-  "secret_key": "rfokMxOM3SrXgYGv0QUC9kSXHLCDfKLHCMMBOhMO",
-  "bucket_name": "anburger-blog",
-  "domain": "https://qiniu.anburger.site",
-  "path": "post/",
+  "access_key": "your_access_key",
+  "secret_key": "your_secret_key",
+  "bucket_name": "your_bucket_name",
+  "domain": "your_domain",
+  "path": "your_path",
   "compress": true,
   "quality": 80
 }
