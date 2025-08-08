@@ -41,7 +41,7 @@ def compress_image(file_path, quality=80):
             save_options['quality'] = quality
             save_options['format'] = 'JPEG'
         elif original_format == 'PNG':
-            save_options['optimize'] = True
+            save_options['optimize'] = True # 无损压缩
             save_options['format'] = 'PNG'
         else: # 其他格式（如GIF, WEBP等）直接保存
             save_options['format'] = original_format
